@@ -339,7 +339,9 @@ export default function HomePage() {
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent"></div>
               </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-slate-900 rounded-lg transform rotate-12 opacity-80"></div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-slate-900 rounded-lg transform rotate-12 opacity-80 flex items-center justify-center">
+                <span className="text-white text-4xl font-bold transform -rotate-12">M</span>
+              </div>
             </div>
           </div>
         </div>
